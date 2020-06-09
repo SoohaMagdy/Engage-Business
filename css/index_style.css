@@ -1,0 +1,68 @@
+body{font-family: 'Open Sans', sans-serif}
+#home{
+    background-image: url(../images/10.jpg);
+    background-size: cover;
+    height: 120vh;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+.homepage{height: 75%;}
+nav li a {
+    font-size: 14px;
+    font-weight: 600;
+}
+.lastLi:hover{background-color: #4CAF50 !important;}
+.lastLi:hover .lastLi a{color: #FFF !important;}
+.homepage h1{font-size: 50px;}
+.homepage button , .secretData button , #values button{
+    font-size: 13px;
+    font-weight: 700;
+}
+.homepage button:hover , #values button:hover{
+    background-color: #FFF !important;
+    color: black !important;
+}
+.aboutItem i{
+    color: #4CAF50;
+}
+#services , #testnomials , #sponsors{ background-color: #F8F8F8}
+.service {overflow:hidden}
+#services .service img{transition: all 1s;}
+#services .service img:hover{transform: scale(1.1 , 1.1);}
+.serviceData a:hover{color: #4CAF50 !important ;}
+.secretData li i {color: #4CAF50 !important;}
+.secretData button:hover{
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+#testnomials i {
+    font-size: 44px;
+    color: #4CAF50;
+}
+#values{
+    background: url(../images/25.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.overlay2{background-color: rgba(0, 0, 0, 0.5);}
+.sponsorImg{opacity: 0.7;}
+.sponsorImg:hover{opacity: 1;}
+#contact{
+    background-color:#1F2021;
+}
+.contactItem li a:hover{color: #4CAF50 !important;}
+
+footer{
+    background-color: #000;
+}
+
+#btnUp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    color: gray;
+    display: none;
+}
