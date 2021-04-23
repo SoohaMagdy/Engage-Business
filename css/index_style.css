@@ -1,4 +1,5 @@
 body{font-family: 'Open Sans', sans-serif}
+p{font-size: 15px;}
 #home{
     background-image: url(../images/10.jpg);
     background-size: cover;
@@ -13,8 +14,10 @@ nav li a {
     font-size: 14px;
     font-weight: 600;
 }
+.lastLi {border-radius: 10px;}
+.lastLi a{color: #000 !important}
 .lastLi:hover{background-color: #4CAF50 !important;}
-.lastLi:hover .lastLi a{color: #FFF !important;}
+.lastLi.lastLi a:hover {color: #FFF !important;}
 .homepage h1{font-size: 50px;}
 .homepage button , .secretData button , #values button{
     font-size: 13px;
@@ -29,9 +32,13 @@ nav li a {
 }
 #services , #testnomials , #sponsors{ background-color: #F8F8F8}
 .service {overflow:hidden}
-#services .service img{transition: all 1s;}
-#services .service img:hover{transform: scale(1.1 , 1.1);}
-.serviceData a:hover{color: #4CAF50 !important ;}
+#services .service img{
+    overflow: hidden;
+    transition: all 2s;}
+#services .service img:hover{transform: scale(1.05 , 1.05);}
+.serviceData p:hover{color: #4CAF50 !important ;}
+.serviceData i{transition: all 2s;}
+.serviceData p:hover i{transform: translateX(10px);}
 .secretData li i {color: #4CAF50 !important;}
 .secretData button:hover{
     background-color: #000 !important;
